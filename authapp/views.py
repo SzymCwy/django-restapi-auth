@@ -1,7 +1,11 @@
 from .serializers import Userserializer, UserSerializerUpdate, UserSerializerCreate, LoginSerializer
 from rest_framework import generics
 from .models import User
+<<<<<<< HEAD
 from rest_framework.permissions import BasePermission, AllowAny
+=======
+from rest_framework.permissions import AllowAny
+>>>>>>> 5647d9303597d12ed639960286631e4ae957807f
 
 
 class UserList(generics.ListAPIView):
